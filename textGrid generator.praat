@@ -1,6 +1,5 @@
-# This script helps you make text grids. It opens all files from the specified directory one at a time
-# creates a text grid for you. This was originally written by Kathryn Flack and Shigeto Kawahara
-# Note that Praat syntax changed in May 2014. So I modified their script
+### This script helps you make text grids. It opens all files from a specified directory one at a time.
+### Praat is changing syntax now, but this script works fine.
 
 ### Define a directory
 
