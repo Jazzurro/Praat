@@ -1,5 +1,6 @@
 ### This script helps you make text grids. It opens all files from a specified directory one at a time.
 ### Praat is changing syntax now, but this script works fine.
+### Written by Kota Hattori
 
 ### Define a directory
 
@@ -34,10 +35,10 @@ for ifile to numberOfFiles
 
    	select Sound 'object_name$'
 
-# Creat a text grid file with a tier named "sentence". This name is not important.
+# Creat a text grid file with a tier named "fricative". You can chane the tier name.
 # It can be anything.
 
-	To TextGrid: "vowel", "" 
+	To TextGrid: "fricative", "" 
 	select TextGrid 'object_name$'
 
 # Then save it as a text file with "TextGrid" extension.
