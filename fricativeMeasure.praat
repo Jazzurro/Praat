@@ -1,5 +1,6 @@
 ### This script goes through sound and TextGrid files in a directory and measure
 ### fricatives. It records COG, SD, skewness, and kurtosis.
+### Written by Kota Hattori
 
 ### Set up a directory and a result file.
 
@@ -67,7 +68,7 @@ for i to numberOfFiles
 
 	pause  Specify a fricetive by adding two intervals. Provide a label. Then, click OK.
 
-### I need to add two intervals, give a label (vowel number), and select the vowel part by clicking.
+### I need to add two intervals, give a label (e.g., S), and select the fricative part by clicking.
 
 ### Now I extract a fricative name (label$) and its duration using the TextGrid 
 
